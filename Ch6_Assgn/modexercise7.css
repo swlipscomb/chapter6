@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  a:link {
+    background-color: yellow; /* Unvisited link background color */
+  }
+  
+  a:visited {
+    background-color: green; /* Visited link background color */
+  }
+  
+  a:hover {
+    background-color: red; /* Link background color when hovered */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+
+/* Styles for footer */
+footer {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  color: darkblue;
+  padding: 10px;
+  border: 1px dashed darkblue;
+}
+
+/* Styles for #notice */
+#notice {
+  width: 80%;
+  margin: 0 auto; /* This centers the element horizontally */
+}
+
+/* Styles for .headline */
+.headline {
+  border-bottom: 1px dotted purple;
+  color: purple;
+  font-weight: bold;
+}
+
+/* Styles for h1 */
+h1 {
+  font-family: sans-serif;
+  font-size: 4em;
+  background-color: rgba(0, 0, 0, 0.5); /* 50% transparent background color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Drop shadow for text */
+}
+
+/* Styles for #section */
+#section {
+  font-family: Arial, sans-serif;
+  font-size: small;
+  color: red;
+  background-color: white;
+  width: 80%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Drop shadow */
+}
